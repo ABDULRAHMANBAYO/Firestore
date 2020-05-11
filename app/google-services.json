@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "701501338738",
+    "firebase_url": "https://ncc-e-743e8.firebaseio.com",
+    "project_id": "ncc-e-743e8",
+    "storage_bucket": "ncc-e-743e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701501338738:android:48f1c010c93354f17f7eeb",
+        "android_client_info": {
+          "package_name": "com.example.introfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701501338738-e5d5ifioljsjv8baq5ng7hjtf0gqv3sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQgt25G13wEpKixxHrPJ_DiBbKSQEaZXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701501338738-e5d5ifioljsjv8baq5ng7hjtf0gqv3sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701501338738:android:8e77684f9d4b424e7f7eeb",
+        "android_client_info": {
+          "package_name": "com.ncc_enrolment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701501338738-2plv6fjoulooc1no21vtgfc1076cqngi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ncc_enrolment",
+            "certificate_hash": "75f2f950966af69bf0210faca9ca99e8a3138acc"
+          }
+        },
+        {
+          "client_id": "701501338738-e5d5ifioljsjv8baq5ng7hjtf0gqv3sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQgt25G13wEpKixxHrPJ_DiBbKSQEaZXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701501338738-e5d5ifioljsjv8baq5ng7hjtf0gqv3sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
