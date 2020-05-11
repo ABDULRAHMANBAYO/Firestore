@@ -13,50 +13,63 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/enter_title"
+        android:inputType="textPersonName"
         tools:layout_editor_absoluteX="106dp"
         tools:layout_editor_absoluteY="271dp" />
+
     <EditText
         android:id="@+id/editThought"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/enter_thought"
+        android:inputType="textPersonName"
         tools:layout_editor_absoluteX="106dp"
         tools:layout_editor_absoluteY="271dp" />
+
     <Button
         android:id="@+id/saveButton"
-        android:text="@string/save"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </Button>
+        android:layout_height="wrap_content"
+        android:text="@string/save"></Button>
+
     <Button
         android:id="@+id/showDetailButton"
-        android:text="@string/showDetails"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </Button>
+        android:layout_height="wrap_content"
+        android:text="@string/showDetails"></Button>
+
     <Button
         android:id="@+id/updateButton"
-        android:text="@string/updateDetails"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </Button>
+        android:layout_height="wrap_content"
+        android:text="@string/updateDetails"></Button>
+
     <Button
         android:id="@+id/deleteButton"
-        android:text="@string/deleteDetails"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </Button>
+        android:layout_height="wrap_content"
+        android:text="@string/deleteDetails"></Button>
 
-    <TextView
-        android:id="@+id/rec_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></TextView>
-    <TextView
-        android:id="@+id/rec_thought"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></TextView>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:padding="9dp"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rec_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/rec_thought"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+
 </LinearLayout>
